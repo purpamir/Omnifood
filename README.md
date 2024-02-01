@@ -1,1 +1,1 @@
-Visit the page : https://purpamir.github.io/omnifood
+Visit the webpage : https://purpamir.github.io/omnifood
