@@ -1,2 +1,1 @@
-# omnifood
-A responsive food delivery website.
+Visit the page : https://purpamir.github.io/omnifood
