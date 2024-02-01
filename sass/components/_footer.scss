@@ -1,0 +1,68 @@
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+  &-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    row-gap: 9.6rem;
+  }
+  &-heading {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    font-weight: 500;
+  }
+  &-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  &-link {
+    &:link,
+    &:visited {
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: $color-grey-7;
+      transition: all 0.3s;
+    }
+    &:hover,
+    &:active {
+      color: $color-main-dark;
+    }
+  }
+  &-logo {
+    margin-bottom: 3.2rem;
+    display: block;
+  }
+}
+
+.social {
+  &-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    &-icon {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+}
+
+.copyright {
+  font-size: 1.4rem;
+  columns: $color-grey-7;
+  line-height: 1.6rem;
+  margin-top: auto;
+}
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.address-text {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  & p {
+    margin-bottom: 2.4rem;
+  }
+}
